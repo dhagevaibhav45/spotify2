@@ -1,0 +1,99 @@
+.logo{
+    width: 150px;
+}
+nav{
+    height: 80px;
+    width: 100%vw;
+    padding-top: 20px;
+    position: fixed;
+
+}
+.headtag{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 5rem;
+    color: black;
+}
+.headtag1{
+    position: absolute;
+    margin-left: 11rem;
+    text-decoration: none;
+    color: black;
+    }
+    .searchbar{
+        position: absolute;
+        margin-left: 18rem;
+        width: 400px;
+        border-radius: 10px;
+        text-align: left;
+    }
+    .accountpage{
+        margin-left: 46rem;
+        text-decoration: none;
+        color: black;
+    }
+    .accountpage1{
+        margin-left: 2rem;
+        text-decoration: none;
+        color: black;
+    }
+    .divbrowse{
+        text-decoration: none;
+        color: black;
+    }
+    .sidediv{
+        text-align: center;
+        margin-top: 4rem;
+        height: 100%;
+        width: 150px;
+        padding: 10px;
+        border-right: 1px solid black;
+        position: fixed;
+    }
+
+    
+.sidedivhead{
+    opacity: 0.5;
+}
+.sidedivhead1{
+    opacity: 0.5;
+}
+footer
+{
+    background-color: rgb(189, 210, 228);
+    height: 100px;
+    z-index: 1;
+    margin-top: 2.5%;
+}
+.songgrid{
+    justify-content: center;
+    position: absolute;
+    justify-items: center;
+    }
+audio{
+    position: absolute;
+    margin-right: 2rem;
+    width: 130px;  
+    height: 20px;  
+} 
+audio::-webkit-media-controls-panel {
+    border-radius: 4px;
+}
+audio::-webkit-media-controls-volume-slider {
+width: 10px;
+}
+ 
+.imagetag{
+    height: 170px;
+}
+audio{
+    margin-left: -3rem;
+    margin-top: 0.5rem;
+    width: 170px;  
+    height: 20px;
+    right: -25px;  
+  
+} 
+audio::-webkit-media-controls-volume-slider {
+width: 10px;
+}
